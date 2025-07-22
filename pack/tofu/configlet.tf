@@ -9,7 +9,7 @@ resource "apstra_datacenter_configlet" "a" {
   generators = [
     {
       config_style  = "junos"
-      section       = "top_level_set_delete"
+      section       = "top_level_hierarchical"
       template_text = <<-EOT
       {#
          IMPORTANT: To use this configlet, you must tag the system interfaces
