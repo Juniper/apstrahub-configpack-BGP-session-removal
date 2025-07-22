@@ -1,0 +1,5 @@
+.idea
+public_key.txt
+secret_key.txt
+tofu/.terraform*
+tofu/terraform.tfstate*
